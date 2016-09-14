@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="repo.water" name="waterREPO" version="1.0.4" provider-name="H²0)">
+	<extension point="xbmc.addon.repository" name="waterREPO">
+	<dir>
+		<info compressed="false">https://raw.github.com/watermouf/sanjuan/master/repo/plugins</info>
+		<checksum>https://raw.github.com/watermouf/sanjuan/master/repo/plugins.hash</checksum>
+		<datadir zip="true">https://raw.github.com/watermouf/sanjuan/master/repo/</datadir>
+	</dir>	
+	<dir>
+		<info compressed="false">https://raw.github.com/watermouf/sanjuan/16/repo/plugins</info>
+		<checksum>https://raw.github.com/watermouf/sanjuan/16/repo/plugins.hash</checksum>
+		<datadir zip="true">https://raw.github.com/watermouf/sanjuan/16/repo/</datadir>
+	</dir>
+	
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform></platform>
+	</extension>
+</addon>
+

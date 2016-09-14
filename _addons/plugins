@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8">
+<addons>
+<addon id="plugin.audio.googlemusic.exp" name="Google Music EXP" version="0.0.0.1" provider-name="ForeverGuest">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.foreverguest" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Experimental Google Music audio plugin</summary>
+    <description lang="en">Plugin that lets you play music from Google Music.</description>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="0.0.0.1" provider-name="kinkin, art by Marquerite">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="repository.Kinkin" />
+    </requires>
+	
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>audio</provides>
+    </extension>
+	
+	
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>A music streaming collection</summary>
+        <description>Browse and stream your favourite songs and albums</description>
+    </extension>
+	
+</addon>
+<addon id="plugin.audio.tuneinradio" name="TuneIn Radio" version="0.0.1" provider-name="brianhornsby">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="repository.brianhornsby" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="bg">Радио TuneIn</summary>
+		<summary lang="en">TuneIn Radio</summary>
+		<summary lang="de">TuneIn Radio</summary>
+		<summary lang="es">TuneIn Radio</summary>
+		<summary lang="el">Ραδιόφωνο TuneIn</summary>
+		<description lang="bg">Радио TuneIn е безплатна услуга, която ви позволява да слушате всичко, независимо къде се намирате. Каквото желаете - музика, спорт или новини. Радио TuneIn предлага над 50 000 станции от които да избирате. Можете да намерите местните станции или да откриете нови станции от целия свят. Радио TuneIn ви отвежда точно където желаете да сте.</description>
+		<description lang="en">TuneIn Radio is a free service that lets you listen to anything in the world from wherever you are. Whether you want to hear music, sports, news or current events. TuneIn Radio offers over 50,000 stations for you to choose from. From finding local stations to discovering new stations from around the world, TuneIn Radio brings you to where you want to be.</description>
+		<description lang="de">TuneIn Radio ist ein kostenloser Service, mit dem Sie alles in der Welt, wo immer Sie sind, hören können. Ob Sie Musik, Sport, Nachrichten oder aktuelle Ereignisse hören wollen. TuneIn Radio hält über 50.000 Sender für Sie bereit. Von der Suche nach lokalen Sender, bis zum entdecken neue Sender aus der ganzen Welt. TuneIn Radio bringt Sie, wohin sie wollen.</description>
+		<description lang="es">TuneIn Radio es un servicio gratuito que te permite escuchar cualquier cosa del mundo desde donde te encuentres. Si deseas escuchar música, deportes, noticias o eventos actuales. TuneIn Radio ofrece más de 50,000 estaciones radiales para escoger, desde estaciones locales hasta descubrir nuevas estaciones alrededor del mundo, TuneIn Radio te lleva a donde tu quieras estar.</description>
+		<description lang="el">Το ραδιόφωνο TuneIn είναι μία δωρεάν υπηρεσία το οποίο σας επιτρέπει να ακούτε οποιοδήποτε σταθμό από όλο τον κόσμο, από όπου και αν βρίσκεστε. Ακόμη και αν θέλετε να ακούσετε μουσική, αθλητικά γεγονότα, ειδήσεις και άλλα γεγονότα, το ραδιόφωνο TuneIn προσφέρει πάνω από 50.000 σταθμούς για εσάς να διαλέξετε. Είτε θέλετε να ακούσετε τοπικούς σταθμούς είτε να ανακαλύψετε νέους από όλο τον κόσμο, το ραδιόφωνο TuneIn σας πηγαίνει όπου θελήσετε να βρεθείτε.</description>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=119315</forum>
+		<website>http://brianhornsby.com/kodi_addons/tuneinradio</website>
+		<source>https://github.com/brianhornsby/plugin.audio.tuneinradio</source>
+	</extension>
+</addon>
+
+<addon id="plugin.program.iarl" name="Internet Archive ROM Launcher" version="0.0.1" provider-name="Zach Morris">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="repository.zachmorris" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Internet Archive ROM Launcher</summary>
+    <description>IARL will download ROMs from the Internet Archive and launch them with Kodi</description>
+  </extension>
+</addon>
+<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.1">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="repository.boogie" />
+	</requires>
+	<extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">UMP : Universal Media Provider</summary>
+		<description lang="en">Universal Media Provider is a framework designed to provide MOVIES, SERIES, ANIMES, MUSIC, ALBUMS, DISCOGRAPHIES, COMICS, MANGA and all various internet media in one addon from various blackholes of the internet</description>
+		<license>GNU General Public License, v2</license>
+		<language/>
+		<forum>https://github.com/boogiekodi/plugin.program.ump/issues</forum>
+		<source/>
+		<website>http://ump.us.to</website>
+		<email>boogiepop@gmx.com</email>
+	</extension>
+</addon>
+<addon id="plugin.video.AlphaMovies" name="[COLOR lime] The Alpha [/COLOR]" version="0.0.1" provider-name="The Alpha Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.merlin" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.DCSports" name="DC Sports" version="1.0.7" provider-name="Darrenc1888">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.shaneyrepos" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">UKUS Sports Addon</summary>
+    <description lang="en">UKUS Sports Addon</description>
+    <platform>all</platform>
+</extension>
+</addon>
+
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.1" provider-name="Team Evolve">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.MatsBuilds" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.exodus" version="0.0.1" name="Exodus" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.exodus" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.GenieTv" name="[COLORsteelblue]GenieTv[/COLOR]" version="0.0.1" provider-name="GenieTv/Origin">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+	<import addon="repository.GenieTv" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GenieTv Kodi's largest support tool. [CR]  Brought to you by the Architects@Work</summary>
+    <description lang="en">GenieTv The Ultimate Kodi Utility, This All In One Addon Has Been Created To Service All Kodi Needs And Hopefully In The Future, To Brings Devs And Streamers Alike A Platform And Home To host Their Content.</description>
+	<disclaimer lang="en">The author neither hosts or stores any content, the author has no affiliation with content hosts</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.icefilms"
+       name="Ice Films"
+       version="0.0.0.1"
+       provider-name="IceFilms">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.eldorado" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.israelive" name="[COLOR white]Israe[/COLOR][COLOR blue]L[/COLOR][COLOR white]IVE[/COLOR]" version="0.0.1" provider-name="Benny123, Avigdor (xbmc-israel repo)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.xbmc-israel" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.pass" library="service.py" start="[login|startup]"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <summary lang="he"></summary>
+    <description lang="en"></description>
+    <description lang="he"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.jericho"
+       name="Jericho"
+       version="0.0.0.1"
+       provider-name="Team Jericho">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Streams voor XBMC / KODI!</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="0.0.1" provider-name="[COLOR ff0084ff]Q[/COLOR], Midraal, forked from Team Metate's Meta-video">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="repository.q" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <summary lang="nl"></summary>
+    <description lang="nl"></description>
+    <supportedcontent>
+      <content>movies</content>
+      <content>tvshows</content>
+      <content>episodes</content>
+      <content>musicvideos</content>
+      <content>music</content>
+      <content>livetv</content>
+    </supportedcontent>
+  <forum></forum>
+  </extension>
+</addon>
+
+<addon id="plugin.video.NJMSoccer"
+       name="NJM-Soccer"
+       version="0.0.0.1"
+       provider-name="Ares Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.aresproject" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> Join us at http://ares-project.com/community/</summary>
+    <description lang="en">Special Thank you to Hakamac for his code, and to Ares Team,Shadow Crew and Mettle Kettle for their support.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.specto" name="Specto"  version="0.0.1" provider-name="mrknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="repository.filmkodi.com" />
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<forum></forum>
+		<source></source>
+		<website></website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="0.0.1"
+  name="SportsDevil"
+  provider-name="MaxMustermann, Al101, Hubbab3, Sattekop">
+  <requires>
+   <import addon="repository.unofficialsportsdevil" />
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tdbwizard" 
+	     name="TDB Wizard" 
+	     version="0.0.0.1" 
+	     provider-name="Team TDB">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.teamtdb" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[COLOR ghostwhite]TDB[/COLOR] [COLOR dodgerblue]Wizard[/COLOR] - [COLOR ghostwhite]TEAM TDB[/COLOR]</summary>
+    <description lang="en">TDB WIZARD is the home of TEAM TDB. A group of likewise build makers with a passion for Kodi. Here you can get all of our builds plus many other great features. TEAM TDB Includes, TDB Wizard, LeeTV, DoneRight, Kodi Heaven, Mystic and Kiddo.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.tdbwizard.co.uk/forum</forum>
+    <website>http://www.tdbwizard.co.uk</website>
+    <email>tdbwizard@gmail.com</email>
+  </extension>
+</addon>
+<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="0.0.1" provider-name="Titan">  
+	<requires>    
+		<import addon="script.module.simplejson" version="3.3.0"/>    
+		<import addon="xbmc.python" version="2.1.0"/>    
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>    
+		<import addon="plugin.video.youtube" version="3.0.0"/>    
+		<import addon="script.module.urlresolver"  version="2.10.10"/>    
+		<import addon="script.common.plugin.cache" version="2.5.2"/>    
+		<import addon="script.module.metahandler" version="2.5.1"/>
+		<import addon="repository.titan.addons" /> 
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+			<summary lang="en"></summary>    
+			<description lang="en">Watch from a huge selection of Movies Tv Shows and Collections... Credits to Lambda for some resolvers used in this addon</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
+			
+			<platform>all</platform>  
+	</extension>
+</addon>
+<addon id="plugin.video.ufc-finest" name="UFC Finest" version="0.0.1" provider-name="DetectiveKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.communityrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">UFC Finest</summary>
+    <description lang="en">The author of this addon does not own nor is affiliated in any way with the content providers , But is providing a 3rd party way to give access to all links provided</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.uwc"
+       name="Ultimate Whitecream"
+       version="0.0.1"
+       provider-name="mortael">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="repository.whitecream" />
+		
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>        
+    </extension>
+</addon>
+
+<addon id="plugin.video.wwe-on-demand" name="[COLOR gold][B]WWE ON DEMAND[/B] [/COLOR]" version="0.0.1" provider-name="@PBear90">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.communityrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WWE ON DEMAND </summary>
+    <description lang="en">The author of this addon does not own nor is affiliated in any way with the content providers , But is providing a 3rd party way to give access to all links provided</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="0.0.0.1" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.kobra" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kobra App Instaler.</summary>
+    <description lang="en">The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications.</description>
+	<website></website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="0.0.1">
+ <requires>
+ </requires>
+ <extension library="default.py" point="xbmc.python.pluginsource">
+ <provides>video</provides>
+ </extension>
+ <extension point="xbmc.service" library="resources/aresservice.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ares Wizard - Your one stop for Kodi setup + maintenance</summary>
+    <description lang="en">Ares Wizard</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="kodi.context.item">
+	  <menu id="kodi.core.main">
+		<item library="resources/uploadlog.py">
+		  <label>Upload Kodi Log</label>
+		  <visible>true</visible>
+		</item>
+	  </menu>
+	</extension>
+ </addon>
+<addon id="script.icechannel" version="0.0.1" name="iSTREAM" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="repository.xunitytalk" />
+        <import addon="repository.istream" /> 
+    </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py" >
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension library="service.py" point="xbmc.service"  start="startup"/>	
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+
+</addons> 
